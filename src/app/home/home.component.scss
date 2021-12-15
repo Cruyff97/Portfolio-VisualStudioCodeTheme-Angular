@@ -1,0 +1,94 @@
+.hometitle {
+    font-size: 32px;
+  display: grid;
+  place-content: center;
+
+}
+.homedivTitle{
+    
+    margin-top: 110px;
+
+    display: grid;
+    place-content: center;
+}
+h2{
+    
+    position: relative  ;
+}
+h2::before,
+h2::after{
+    position: absolute;
+    content:'';
+    top:0;
+    right: 0;
+    left:0;
+    bottom: 0;
+}
+h2::before{
+    background:#303030 ;
+    animation: typewriter 5s steps(21) 1s forwards;
+}
+h2::after{
+    width: 0.125em;
+    background: #0098ff;
+    animation: blink 900ms steps(21) infinite,
+    typewriter 5s steps(21) 1s forwards;
+}
+h2.webdeveloper{
+    font-size: 21px;
+}
+@keyframes typewriter {
+    to {
+        left:100%
+    }
+}
+@keyframes blink {
+    to {
+        background: #303030;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.mat-raised-button{
+    margin: 5px;
+}
+.backhome{
+    width: 90%;
+    height: 90%;
+}
+li{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+ol { 
+    
+    width: 60vw;
+    counter-reset: item;
+    list-style-type: none;
+}
+li:before { 
+    margin-right: 80px;
+    content: counter(item) ""; 
+    counter-increment: item ;
+    position: relative;
+}
+@media screen and (max-width: 480px) {
+    ol{
+        width: auto;
+        padding: 0;
+    }
+    li:before{
+        margin-right: 10px;
+    }
+    .homedivTitle{
+        margin-right: 60px;
+    }   
+
+}
