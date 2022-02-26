@@ -19,6 +19,7 @@ import { GithubComponent } from './github/github.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     TitlebarComponent,
     Aside1Component,
     AboutComponent,
-    GithubComponent
+    GithubComponent,
+  
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
