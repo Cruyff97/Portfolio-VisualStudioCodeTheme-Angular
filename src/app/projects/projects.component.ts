@@ -56,7 +56,7 @@ description:'A small application in Angular that fetches images from Unsplash AP
 framework: 'Angular',
  link: 'https://images-app-ochre.vercel.app/' ,
  github: 'https://github.com/Cruyff97/ImagesApp',
- img: 'assets/bg2.png',
+ img: '././assets/bg2.png',
  imgmobile:'./assets/images-mob.png'
 }]
   constructor() { }
