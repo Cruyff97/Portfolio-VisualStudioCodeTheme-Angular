@@ -61,9 +61,9 @@ framework: 'Angular',
 }]
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
     if (window.screen.width <= 768) { // 768px portrait
-      this.mobile = false;
+      this.mobile = true;
     }
     
   }
