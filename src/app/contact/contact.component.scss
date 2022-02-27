@@ -22,9 +22,10 @@ li:before {
 }
 .contact-container{
     display: flex;
-    
-    flex-direction: row;
+    flex-direction: column;
     height: 90vh;
+    align-content: center;
+    align-items: center;
 }
 .contact-social{
     
@@ -58,6 +59,9 @@ li:before {
     color: #ad61aa;
 }
 @media screen and (max-width: 960px) {
+  .fun-cont{
+    text-align: center;
+  }
     .contact-container{
        
         

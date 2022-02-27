@@ -16,10 +16,10 @@ export class TabsComponent implements OnInit {
             index: 0,
             icon: '/assets/icons8-html-5.svg'
         }, {
-            label: 'About.css',
+            label: 'About.json',
             link: './about',
             index: 1,
-            icon: '/assets/icons8-css3.svg'
+            icon: '/assets/icons8-json-24.png'
         }, {
             label: 'Projects.js',
             link: './projects',
@@ -31,11 +31,6 @@ export class TabsComponent implements OnInit {
           index: 3,
           icon: '/assets/icons8-typescript.svg'
       },
-      {
-        label: 'Github.md',
-        link: './github',
-        index: 4
-    }
     ];
 }
 ngOnInit(): void {

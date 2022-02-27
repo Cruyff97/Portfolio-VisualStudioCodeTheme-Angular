@@ -303,4 +303,9 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
   }
   .mat-expansion-panel-header {
     flex-direction: row-reverse;}
- 
+ h2.title-inside{
+   display: flex;
+   text-align: center;
+  font-size: 25px;
+  margin-top: 7vh;
+ }
