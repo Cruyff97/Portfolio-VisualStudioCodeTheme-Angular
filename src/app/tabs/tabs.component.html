@@ -6,7 +6,7 @@
     [routerLink]="link.link"
     routerLinkActive="active" #rla="routerLinkActive"
     [active]="rla.isActive">
-      {{link.label}}
+    <img width="20px" src="{{link.icon}} " alt="" srcset=""> {{link.label}}
     </a>
     </nav>
     <router-outlet></router-outlet>

@@ -79,6 +79,13 @@ li:before {
     counter-increment: item ;
     position: relative;
 }
+
+.tag{
+    color: #0098ff;
+}
+.inside{
+    color: white;
+}
 @media screen and (max-width: 480px) {
     ol{
         width: auto;

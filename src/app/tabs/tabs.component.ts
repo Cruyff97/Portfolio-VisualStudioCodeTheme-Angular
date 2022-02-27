@@ -13,19 +13,23 @@ export class TabsComponent implements OnInit {
         {
             label: 'Home.html',
             link: './home',
-            index: 0
+            index: 0,
+            icon: '/assets/icons8-html-5.svg'
         }, {
             label: 'About.css',
             link: './about',
-            index: 1
+            index: 1,
+            icon: '/assets/icons8-css3.svg'
         }, {
             label: 'Projects.js',
             link: './projects',
-            index: 2
+            index: 2,
+            icon: '/assets/icons8-javascript.svg'
         }, {
           label: 'Contact.ts',
           link: './contact',
-          index: 3
+          index: 3,
+          icon: '/assets/icons8-typescript.svg'
       },
       {
         label: 'Github.md',
