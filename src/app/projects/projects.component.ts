@@ -14,8 +14,8 @@ projects= [{
   description: 'This is a a simple web app that fetches Air Quality Index data from AQICN via their free API and displays it.',
   link: 'https://naughty-sinoussi-73b643.netlify.app/',
   github: 'https://github.com/Cruyff97/Javascript-advanced-pollution',
-  img: 'assets/air poll.png',
-  imgmobile:'assets/air-mob.png'
+  img: '/assets/air poll.png',
+  imgmobile:'/assets/air-mob.png'
 },
 {
   name: 'JobSearch AngularProject',
@@ -25,7 +25,7 @@ projects= [{
   framework: 'Angular',
   link: 'https://hopeful-edison-7d93ef.netlify.app/',
   github: 'https://github.com/Cruyff97/JobSearch-AngularProject',
-  img: 'assets/findjob.png',
+  img: '/assets/findjob.png',
   imgmobile:'assets/'
 },
 {
@@ -35,8 +35,8 @@ projects= [{
   description: 'A small Todo App using Angular and Angular Material for styling.',
   framework: 'Angular',
   github:'https://github.com/Cruyff97/Todo-Angular',
-  img: 'assets/todo.png',
-  imgmobile:'assets/todo-mob.png'
+  img: '/assets/todo.png',
+  imgmobile:'/assets/todo-mob.png'
 },
 {
   name: 'BookSearch Angular',
@@ -46,8 +46,8 @@ projects= [{
   framework: 'Angular',
   link:'https://tender-sammet-0ab8f7.netlify.app/',
   github:'https://github.com/Cruyff97/BookSearch-Angular',
-  img: 'assets/books.png',
-  imgmobile:'assets/books-mob.png'
+  img: '/assets/books.png',
+  imgmobile:'/assets/books-mob.png'
 },
 { name: 'ImagesApp Unsplash',
 language: 'Typescript',
@@ -56,8 +56,8 @@ description:'A small application in Angular that fetches images from Unsplash AP
 framework: 'Angular',
  link: 'https://images-app-ochre.vercel.app/' ,
  github: 'https://github.com/Cruyff97/ImagesApp',
- img: 'assets/bg2.png',
- imgmobile:'assets/images-mob.png'
+ img: '/assets/bg2.png',
+ imgmobile:'/assets/images-mob.png'
 }]
   constructor() { }
 
